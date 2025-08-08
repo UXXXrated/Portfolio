@@ -1,64 +1,13 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <title>Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
-    body { font-family: system-ui, sans-serif; margin: 2rem; }
-    #content { display: none; }
-    .gate { max-width: 420px; }
-    input, button { padding: .6rem; font-size: 1rem; }
-    .row { display: flex; gap: .6rem; }
-    .error { color: #b00; margin-top: .5rem; display: none; }
-  </style>
-</head>
-<body>
-  <div class="gate">
-    <h1>Protected Case Study</h1>
-    <p>Enter access key to view.</p>
-    <div class="row">
-      <input id="pw" type="password" placeholder="Access key" />
-      <button id="go">Unlock</button>
-    </div>
-    <div id="err" class="error">Incorrect key. Try again.</div>
-  </div>
+---
+layout: default
+title: Home
+---
 
-  <div id="content">
-    <!-- YOUR HIDDEN CONTENT: images, case study HTML, etc. -->
-    <h2>Case Study Title</h2>
-    <p>Public-safe summary here…</p>
-    <img src="assets/hero.png" alt="Hero" />
-    <!-- etc. -->
-  </div>
+# My Portfolio
 
-  <script>
-    // --- tiny SHA-256 helper using Web Crypto API ---
-    async function sha256(txt) {
-      const enc = new TextEncoder().encode(txt);
-      const buf = await crypto.subtle.digest('SHA-256', enc);
-      return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
-    }
+Welcome to my UX design portfolio. Here you'll find selected projects and case studies.
 
-    const TARGET_HASH = "YOUR_SHA256_HASH_HERE"; // <-- replace
-
-    async function unlock() {
-      const pw = document.getElementById('pw').value;
-      const hash = await sha256(pw);
-      if (hash === TARGET_HASH) {
-        document.querySelector('.gate').style.display = 'none';
-        document.getElementById('content').style.display = 'block';
-        // Optional: clear the input
-        document.getElementById('pw').value = '';
-      } else {
-        document.getElementById('err').style.display = 'block';
-      }
-    }
-
-    document.getElementById('go').addEventListener('click', unlock);
-    document.getElementById('pw').addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') unlock();
-    });
-  </script>
-</body>
-</html>
+## Case Studies
+- [Case Study 1]({{ '/case-studies/case-study-1' | relative_url }})
+- [Case Study 2]({{ '/case-studies/case-study-2' | relative_url }})
+- [Case Study 3]({{ '/case-studies/case-study-3' | relative_url }})
