@@ -1,0 +1,6 @@
+title: My Portfolio
+description: UX Design & Case Studies
+theme: minima  # or any other supported GitHub Pages theme
+markdown: kramdown
+plugins:
+  - jekyll-feed
