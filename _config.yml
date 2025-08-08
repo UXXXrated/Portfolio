@@ -3,8 +3,8 @@ description: UX Design & Case Studies
 theme: minima
 markdown: kramdown
 
-url: "https://uxxxrated.github.io"
-baseurl: "/Portfolio"
+url: "https://www.bamoore.com"
+baseurl: ""
 
 exclude:
   - README.md
