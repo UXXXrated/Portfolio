@@ -1,19 +1,20 @@
 title: My Portfolio
 description: UX Design & Case Studies
-theme: minima   # you can swap this for another built-in theme
+theme: minima
 markdown: kramdown
 
-# Set base URL if your repo name is "Portfolio"
-baseurl: "/Portfolio"
 url: "https://uxxxrated.github.io"
+baseurl: "/Portfolio"
 
-# Exclude files/folders from being processed by Jekyll
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
 
-# Optional: make /case-studies/ a collection so it's easier to manage
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
 collections:
   case-studies:
     output: true
