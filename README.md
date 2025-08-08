@@ -1,7 +1,6 @@
 # UX Portfolio
 
-This repository hosts my public UX design case studies, featuring user-centered project work in enterprise and service design.  
-See the live portfolio at: [bamoore.com](https://bamoore.com)
+This repository hosts my public UX design case studies, featuring user-centered project work in enterprise and service design.
 
 ---
 > Case study information obfuscated for security purposes. Examples reflect real-world applications. Additional examples available upon request.
