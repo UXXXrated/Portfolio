@@ -21,3 +21,8 @@ collections:
     permalink: /case-studies/:name
 
 password: "YourPasswordHere"
+
+minima:
+  skin: classic
+  custom_css:
+    - /assets/style.css
