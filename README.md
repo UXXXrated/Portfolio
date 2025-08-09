@@ -13,7 +13,7 @@ It showcases my design work, case studies, and professional background.
 - `index.html` – Homepage  
 
 ## Credits
-This site is based on the **Akio – Creative Portfolio Theme for Jekyll** by [StaticMania](https://jekyllthemes.io/theme/akio-portfolio-jekyll-theme), modified by Brenden Moore for personal use.
+This site is based on the **Akio – Creative Portfolio Theme for Jekyll** by [StaticMania](https://jekyllthemes.io/theme/akio-portfolio-jekyll-theme), modified for personal use.
 
 ## License
 The original theme is © StaticMania and licensed per their terms.  
