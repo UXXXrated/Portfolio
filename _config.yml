@@ -1,28 +1,70 @@
+# -------------------------------
+# General Site Settings
 title: My Portfolio
 description: UX Design & Case Studies
-theme: minima
-markdown: kramdown
-
+baseurl: "" # Leave empty for root
 url: "https://www.bamoore.com"
-baseurl: ""
+
+# -------------------------------
+# Build Settings
+markdown: kramdown
+permalink: /:title
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+paginate: 5
+paginate_path: "/blog/page/:num"
 
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
+# -------------------------------
+# Collections
 collections:
-  case-studies:
+  pages:
     output: true
-    permalink: /case-studies/:name
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  works:
+    output: true
+    permalink: /work/:slug
 
+# -------------------------------
+# Defaults for layouts
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "works"
+    values:
+      layout: "work"
+
+# -------------------------------
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# -------------------------------
+# Password Protection
 password: "YourPasswordHere"
-
-minima:
-  skin: classic
-  custom_css:
-    - /assets/style.css
