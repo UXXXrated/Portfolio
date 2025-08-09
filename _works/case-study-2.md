@@ -1,11 +1,15 @@
 ---
 layout: case-study-password
 title: Case Study 2
+description: Short one-line description for the homepage grid
+category: UX • Research
+role: Senior UX Researcher
+image: /images/works/case-study-2-thumb.jpg
 ---
 
-# Case Study 2
-Intro text for Case Study 2.
+# Project Title
+This is the introduction to your second case study.
 
-![Example Image](../assets/images/case-studies/example2.png)
+![Example Image](/images/works/case-study-2-full.jpg)
 
-Details about the project go here.
+More details about the project go here. You can use **Markdown** for formatting, lists, and images.
