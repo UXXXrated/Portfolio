@@ -16,8 +16,8 @@ menu__settings:
       url: '/about/'
     - title: 'Work'
       url: '/work/'
-    - title: 'Writing'
-      url: '/blog/'
+    # - title: 'Writing'
+    #  url: '/blog/'
     - title: 'Pages'
       submenu:
       - url: '/contact/'
