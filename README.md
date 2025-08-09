@@ -1,4 +1,4 @@
-# Brenden Moore – UX Design Portfolio
+# UX Design Portfolio
 
 This repository contains the source code for my personal UX design portfolio website, built with Jekyll and hosted on GitHub Pages.  
 It showcases my design work, case studies, and professional background.
@@ -17,4 +17,4 @@ This site is based on the **Akio – Creative Portfolio Theme for Jekyll** by [S
 
 ## License
 The original theme is © StaticMania and licensed per their terms.  
-All custom modifications and original content are © Brenden Moore.
+All custom modifications and original content are © BAMoore
