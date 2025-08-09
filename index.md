@@ -1,23 +1,21 @@
 ---
 layout: default
-title: Home
+title: My Portfolio
 ---
 
-# My Portfolio
-
-Welcome to my UX design portfolio. Here you'll find selected projects and case studies.
+<h1>My Portfolio</h1>
+<p>Welcome to my UX design portfolio. Here you’ll find selected projects and case studies.</p>
 
 <div class="portfolio-grid">
-  <a href="{{ '/case-studies/case-study-1' | relative_url }}" class="portfolio-item">
-    <h3>Case Study 1</h3>
-    <p>Brief description of the project.</p>
-  </a>
-  <a href="{{ '/case-studies/case-study-2' | relative_url }}" class="portfolio-item">
-    <h3>Case Study 2</h3>
-    <p>Brief description of the project.</p>
-  </a>
-  <a href="{{ '/case-studies/case-study-3' | relative_url }}" class="portfolio-item">
-    <h3>Case Study 3</h3>
-    <p>Brief description of the project.</p>
-  </a>
+  {% for work in site.works %}
+    <a class="portfolio-item" href="{{ work.url }}">
+      {% if work.image %}
+        <img src="{{ work.image }}" alt="{{ work.title }}" style="max-width:100%; border-radius:4px;">
+      {% endif %}
+      <h3>{{ work.title }}</h3>
+      {% if work.description %}
+        <p>{{ work.description }}</p>
+      {% endif %}
+    </a>
+  {% endfor %}
 </div>
