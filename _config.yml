@@ -19,3 +19,5 @@ collections:
   case-studies:
     output: true
     permalink: /case-studies/:name
+
+password: "YourPasswordHere"
