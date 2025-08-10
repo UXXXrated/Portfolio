@@ -15,6 +15,7 @@ It showcases my design work, case studies, and professional background.
 ## Credits
 This site is based on the **Akio – Creative Portfolio Theme for Jekyll** via [StaticMania](https://jekyllthemes.io/theme/akio-portfolio-jekyll-theme)  
 Favicon provided by **John Sorrentino** via [Favicon.io](https://jekyllthemes.io/theme/akio-portfolio-jekyll-theme](https://favicon.io))
+Software/Code icons provided by **Skill Icons** via [tandpfun/skill-icons](https://github.com/tandpfun/skill-icons)  
 
 ## License
 The original theme is © StaticMania and licensed per their terms.  
