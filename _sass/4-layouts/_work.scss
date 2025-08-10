@@ -5,16 +5,10 @@
 
 .work-head {
   margin-bottom: 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* centers the whole block */
 
   .row {
-    width: 100%;
-    max-width: 840px; /* keeps it from stretching too wide */
-    text-align: left; /* actual text is still left aligned */
-    justify-content: flex-start; /* flex items start from the left */
-    align-items: center; /* vertically align content if needed */
+    justify-content: space-between;
+    align-items: center;
   }
 
   @media (max-width: $desktop) {
@@ -25,9 +19,8 @@
     }
   }
 }
-
-.work-head__left {
-  .work-head__image {
+__left {
+  __image {
     position: relative;
     transform: translate(0);
     aspect-ratio: 1/1.2;
@@ -51,7 +44,7 @@
   }
 
   @media (max-width: $desktop) {
-    .work-head__image {
+    __image {
       aspect-ratio: 1/1;
 
       @supports not (aspect-ratio: 1/1) {
@@ -61,7 +54,7 @@
   }
 }
 
-.work-head__right {
+__right {
   margin-left: 40px;
 
   @media (max-width: $desktop) {
