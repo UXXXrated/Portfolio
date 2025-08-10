@@ -4,11 +4,23 @@
 }
 
 .work-head {
+  /* OLD:
   margin-bottom: 60px;
 
   .row {
     justify-content: space-between;
     align-items: center;
+  }
+  */
+
+  /* NEW: Center-align the heading/description above the works */
+  margin-bottom: 60px;
+
+  .row {
+    flex-direction: column;  /* stack heading/paragraph above grid */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   @media (max-width: $desktop) {
@@ -56,7 +68,9 @@
 }
 
 .work-head__right {
-  margin-left: 40px;
+  /* OLD: margin-left: 40px; */
+  margin-left: 0; /* no left offset so it stays centered */
+  max-width: 840px; /* optional: keeps text readable width */
 
   @media (max-width: $desktop) {
     margin-left: 0;
@@ -119,4 +133,23 @@
 .work-navigation {
   max-width: 840px;
   margin: 0 auto;
+}
+
+/* NEW: 3-column layout for work items */
+.work-grid, .works, .work-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+@media (max-width: $desktop) {
+  .work-grid, .works, .work-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: $mobile) {
+  .work-grid, .works, .work-list {
+    grid-template-columns: 1fr;
+  }
 }
