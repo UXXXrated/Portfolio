@@ -5,10 +5,16 @@
 
 .work-head {
   margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers the whole block */
 
   .row {
-    justify-content: space-between;
-    align-items: center;
+    width: 100%;
+    max-width: 840px; /* keeps it from stretching too wide */
+    text-align: left; /* actual text is still left aligned */
+    justify-content: flex-start; /* flex items start from the left */
+    align-items: center; /* vertically align content if needed */
   }
 
   @media (max-width: $desktop) {
