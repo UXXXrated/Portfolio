@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function() {
   if (heroBackground) {
     function updateParallax() {
       const scrolled = window.pageYOffset;
-      const parallaxSpeed = 0.5;
+      const parallaxSpeed = 0.8;
       const yPos = -(scrolled * parallaxSpeed);
       heroBackground.style.transform = `translate3d(0, ${yPos}px, 0)`;
     }
