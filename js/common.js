@@ -129,4 +129,39 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 
+
+  /* =======================
+  // Hero Parallax Effect
+  ======================= */
+  const heroBackground = document.querySelector('.hero__background');
+  
+  if (heroBackground) {
+    function updateParallax() {
+      const scrolled = window.pageYOffset;
+      const parallaxSpeed = 0.5;
+      const yPos = -(scrolled * parallaxSpeed);
+      heroBackground.style.transform = `translate3d(0, ${yPos}px, 0)`;
+    }
+
+    // Use requestAnimationFrame for smooth performance
+    let ticking = false;
+    
+    function requestTick() {
+      if (!ticking) {
+        requestAnimationFrame(updateParallax);
+        ticking = true;
+      }
+    }
+
+    function handleScroll() {
+      ticking = false;
+      requestTick();
+    }
+
+    window.addEventListener('scroll', handleScroll);
+    
+    // Initial call
+    updateParallax();
+  }
+
 });
