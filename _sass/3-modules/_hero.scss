@@ -129,3 +129,21 @@
     font-size: inherit;
   }
 }
+
+/* Hero Testimonial Link */
+.hero-testimonial-link {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+  will-change: transform;
+  color: var(--primary-color) !important;
+  text-decoration: none;
+  
+  &:hover {
+    color: var(--primary-color) !important;
+    opacity: .85;
+    text-decoration: none;
+  }
+}
