@@ -17,12 +17,8 @@ menu__settings:
       url: '/work/'
     # - title: 'Writing'
     #   url: '/blog/'
-    - title: 'Pages'
-      submenu:
-        - url: '/contact/'
-          title: 'Contact'
-        - url: '/elements/'
-          title: 'Elements'
+    - title: 'Contact'
+      url: '/contact/'
 
 #-------------------------------
 # Author Settings
