@@ -134,16 +134,25 @@ document.addEventListener("DOMContentLoaded", function() {
   // Hero Parallax Effect
   ======================= */
   const heroBackground = document.querySelector('.hero__background');
+  const heroSection = document.querySelector('.hero--background');
   
-  if (heroBackground) {
+  if (heroBackground && heroSection) {
     let ticking = false;
     
     function updateParallax() {
       const scrolled = window.pageYOffset;
-      const parallaxSpeed = 0.5; 
-      const yPos = -(scrolled * parallaxSpeed);
-      heroBackground.style.transform = `translate3d(0, ${yPos}px, 0)`;
-      ticking = false; 
+      const heroHeight = heroSection.offsetHeight;
+      const heroTop = heroSection.offsetTop;
+      
+      // Only apply parallax when hero is in viewport
+      if (scrolled < heroTop + heroHeight) {
+        const parallaxSpeed = 0.3; // Further reduced for subtler effect
+        const maxMove = heroHeight * 0.1; // Limit movement to 10% of hero height
+        const yPos = Math.max(-maxMove, -(scrolled * parallaxSpeed));
+        heroBackground.style.transform = `translate3d(0, ${yPos}px, 0)`;
+      }
+      
+      ticking = false;
     }
 
     function handleScroll() {
@@ -153,8 +162,10 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     }
 
+    // Use passive listener for better performance
     window.addEventListener('scroll', handleScroll, { passive: true });
     
+    // Initial call
     updateParallax();
   }
 
