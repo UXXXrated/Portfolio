@@ -136,31 +136,25 @@ document.addEventListener("DOMContentLoaded", function() {
   const heroBackground = document.querySelector('.hero__background');
   
   if (heroBackground) {
-    function updateParallax() {
-      const scrolled = window.pageYOffset;
-      const parallaxSpeed = 0.8;
-      const yPos = -(scrolled * parallaxSpeed);
-      heroBackground.style.transform = `translate3d(0, ${yPos}px, 0)`;
-    }
-
-    // Use requestAnimationFrame for smooth performance
     let ticking = false;
     
-    function requestTick() {
+    function updateParallax() {
+      const scrolled = window.pageYOffset;
+      const parallaxSpeed = 0.5; 
+      const yPos = -(scrolled * parallaxSpeed);
+      heroBackground.style.transform = `translate3d(0, ${yPos}px, 0)`;
+      ticking = false; 
+    }
+
+    function handleScroll() {
       if (!ticking) {
         requestAnimationFrame(updateParallax);
         ticking = true;
       }
     }
 
-    function handleScroll() {
-      ticking = false;
-      requestTick();
-    }
-
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     
-    // Initial call
     updateParallax();
   }
 
