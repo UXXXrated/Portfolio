@@ -11,10 +11,10 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'About'
-      url: '/about/'
     - title: 'Work'
       url: '/work/'
+    - title: 'About'
+      url: '/about/'
     # - title: 'Writing'
     #   url: '/blog/'
     - title: 'Contact'
