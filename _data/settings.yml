@@ -46,7 +46,7 @@ social:
 hero:
   enable: true
   hero__title: Hey everyone, I’m Brenden
-  hero__description: Hi, I'm Brenden – UX designer focused on clear flows, measurable outcomes, and ship-ready specs.
+  hero__description: Hi, I'm Brenden – UX designer focused on clear flows, measurable outcomes, and ship-ready specs. But don't just take my word for it, <a href="#testimonials">see what others are saying</a>.
   hero__image: "/images/01-1.jpg"
 
 #-------------------------------
