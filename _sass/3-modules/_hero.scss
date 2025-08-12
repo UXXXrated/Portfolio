@@ -132,18 +132,26 @@
 
 /* Hero Testimonial Link */
 .hero-testimonial-link {
-  display: inline-block;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 1;
-  white-space: nowrap;
-  will-change: transform;
+  font-size: inherit; /* Match hero description font size */
+  font-weight: inherit; /* Match hero description font weight */
+  line-height: inherit; /* Match hero description line height */
   color: var(--primary-color) !important;
   text-decoration: none;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5); /* Match hero description text shadow */
   
   &:hover {
     color: var(--primary-color) !important;
     opacity: .85;
     text-decoration: none;
+    
+    i {
+      transform: translateX(2px); /* Match section link hover effect */
+    }
+  }
+  
+  i {
+    margin-left: 2px;
+    font-size: 17px; /* Match section link icon size */
+    transition: transform 0.2s ease; /* Smooth hover animation */
   }
 }
