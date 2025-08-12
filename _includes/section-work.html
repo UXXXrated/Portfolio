@@ -15,8 +15,10 @@
     </div>
 
     <div class="row">
-      {% assign sorted = site.works | sort: 'date' | reverse %}
-      {% for work in sorted limit:4 %}
+      {% assign featured_slugs = 'case-study-1,case-study-2,case-study-3' | split: ',' %}
+      {% for slug in featured_slugs %}
+        {% assign work = site.works | where: 'slug', slug | first %}
+        {% if work %}
       <article class="work col col-4 col-d-12">
         <div class="work__content">
           <a href="{{ work.url }}" class="work__image">
@@ -33,6 +35,7 @@
           </div>
         </div>
       </article>
+      {% endif %}
       {% endfor %}
     </div>
   </section>
