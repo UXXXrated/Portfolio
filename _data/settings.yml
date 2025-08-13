@@ -161,8 +161,8 @@ footer__background__image: "/images/bg.jpg"
 #-------------------------------
 # Contact Settings
 contact:
-  email: your@email.com
-  description: Akio comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
+  email: bamoore@proton.me
+  description: Ready to discuss your next project? Drop me a message and I'll get back to you within 24 hours. Let's create something amazing together.
 
 #-------------------------------
 # Comment Section (Disqus)
