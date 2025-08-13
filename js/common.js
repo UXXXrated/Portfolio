@@ -136,15 +136,22 @@ document.addEventListener("DOMContentLoaded", function() {
   const heroTestimonialLink = document.querySelector('.hero-testimonial-link');
   
   if (heroTestimonialLink) {
+    console.log('Hero testimonial link found');
     heroTestimonialLink.addEventListener("click", function (e) {
+      console.log('Hero testimonial link clicked');
       e.preventDefault();
       const testimonialsSection = document.querySelector('#testimonials');
       if (testimonialsSection) {
+        console.log('Testimonials section found, scrolling...');
         testimonialsSection.scrollIntoView({
           behavior: "smooth"
         });
+      } else {
+        console.log('Testimonials section not found');
       }
     });
+  } else {
+    console.log('Hero testimonial link not found');
   }
 
 
