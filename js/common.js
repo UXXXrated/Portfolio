@@ -131,6 +131,24 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   /* =======================
+  // Hero Testimonial Link Smooth Scroll
+  ======================= */
+  const heroTestimonialLink = document.querySelector('.hero-testimonial-link');
+  
+  if (heroTestimonialLink) {
+    heroTestimonialLink.addEventListener("click", function (e) {
+      e.preventDefault();
+      const testimonialsSection = document.querySelector('#testimonials');
+      if (testimonialsSection) {
+        testimonialsSection.scrollIntoView({
+          behavior: "smooth"
+        });
+      }
+    });
+  }
+
+
+  /* =======================
   // Hero Parallax Effect
   ======================= */
   const heroBackground = document.querySelector('.hero__background');
