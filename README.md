@@ -1,7 +1,6 @@
 # UX Design Portfolio
 
-This repository contains the source code for my personal UX design portfolio website, built with Jekyll and hosted on GitHub Pages.  
-It showcases my design work, case studies, and professional background.
+This repository contains the source code for my personal UX design portfolio website, built with Jekyll and hosted on GitHub Pages. It showcases my design work, case studies, and professional background.
 
 ## Structure
 - `_config.yml` – Main site configuration  
