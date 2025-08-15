@@ -34,8 +34,6 @@ social:
     link: https://facebook.com
   - icon: ion-logo-instagram
     link: https://instagram.com
-  - icon: ion-logo-pinterest
-    link: https://pinterest.com
   - icon: ion-logo-github
     link: https://github.com
   - icon: ion-logo-vimeo
@@ -62,9 +60,6 @@ logo__items:
   - name: Spotify
     link: "https://www.spotify.com/"
     image: "/images/spotify.svg"
-  - name: Pinterest
-    link: "https://www.pinterest.com/"
-    image: "/images/pinterest.svg"
   - name: Netlify
     link: "https://www.netlify.com/"
     image: "/images/netlify.svg"
