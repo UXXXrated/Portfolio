@@ -122,20 +122,28 @@ document.addEventListener("DOMContentLoaded", function() {
       e.preventDefault();
       const testimonialsSection = document.querySelector('#testimonials');
       if (testimonialsSection) {
-        // Try modern smooth scroll first
-        if ('scrollBehavior' in document.documentElement.style) {
-          testimonialsSection.scrollIntoView({
-            behavior: "smooth",
-            block: "start"
-          });
-        } else {
-          // Fallback for older browsers
-          const targetPosition = testimonialsSection.offsetTop;
-          window.scrollTo({
-            top: targetPosition,
-            behavior: "smooth"
-          });
+        const targetPosition = testimonialsSection.offsetTop;
+        const startPosition = window.pageYOffset;
+        const distance = targetPosition - startPosition;
+        const duration = 500;
+        let start = null;
+
+        function smoothScrollStep(timestamp) {
+          if (!start) start = timestamp;
+          const progress = timestamp - start;
+          const progressPercentage = Math.min(progress / duration, 1);
+          
+          // Ease-out-quad - matches browser default
+          const easeOutQuad = 1 - (1 - progressPercentage) * (1 - progressPercentage);
+          
+          window.scrollTo(0, startPosition + distance * easeOutQuad);
+          
+          if (progress < duration) {
+            window.requestAnimationFrame(smoothScrollStep);
+          }
         }
+        
+        window.requestAnimationFrame(smoothScrollStep);
       }
     });
   }
@@ -150,24 +158,26 @@ document.addEventListener("DOMContentLoaded", function() {
 
   btnScrollToTop.addEventListener("click", function () {
     if (window.scrollY != 0) {
-      // Try modern smooth scroll first
-      if ('scrollBehavior' in document.documentElement.style) {
-        window.scrollTo({
-          top: 0,
-          left: 0,
-          behavior: "smooth"
-        });
-      } else {
-        // Fallback smooth scroll animation
-        const scrollToTop = () => {
-          const currentScroll = window.scrollY;
-          if (currentScroll > 0) {
-            window.requestAnimationFrame(scrollToTop);
-            window.scrollTo(0, currentScroll - (currentScroll / 8));
-          }
-        };
-        scrollToTop();
+      const startPosition = window.pageYOffset;
+      const duration = 500;
+      let start = null;
+
+      function smoothScrollToTop(timestamp) {
+        if (!start) start = timestamp;
+        const progress = timestamp - start;
+        const progressPercentage = Math.min(progress / duration, 1);
+        
+        // Ease-out-quad - matches browser default
+        const easeOutQuad = 1 - (1 - progressPercentage) * (1 - progressPercentage);
+        
+        window.scrollTo(0, startPosition * (1 - easeOutQuad));
+        
+        if (progress < duration) {
+          window.requestAnimationFrame(smoothScrollToTop);
+        }
       }
+      
+      window.requestAnimationFrame(smoothScrollToTop);
     }
   });
 
