@@ -113,24 +113,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   /* =======================
-  // Scroll Top Button
-  ======================= */
-  window.addEventListener("scroll", function () {
-    window.scrollY > window.innerHeight ? btnScrollToTop.classList.add("is-active") : btnScrollToTop.classList.remove("is-active");
-  });
-
-  btnScrollToTop.addEventListener("click", function () {
-    if (window.scrollY != 0) {
-      window.scrollTo({
-        top: 0,
-        left: 0,
-        behavior: "smooth"
-      })
-    }
-  });
-
-
-  /* =======================
   // Hero Testimonial Link Smooth Scroll
   ======================= */
   const heroTestimonialLink = document.querySelector('.hero-testimonial-link');
@@ -140,12 +122,54 @@ document.addEventListener("DOMContentLoaded", function() {
       e.preventDefault();
       const testimonialsSection = document.querySelector('#testimonials');
       if (testimonialsSection) {
-        testimonialsSection.scrollIntoView({
-          behavior: "smooth"
-        });
+        // Try modern smooth scroll first
+        if ('scrollBehavior' in document.documentElement.style) {
+          testimonialsSection.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+          });
+        } else {
+          // Fallback for older browsers
+          const targetPosition = testimonialsSection.offsetTop;
+          window.scrollTo({
+            top: targetPosition,
+            behavior: "smooth"
+          });
+        }
       }
     });
   }
+
+
+  /* =======================
+  // Scroll Top Button
+  ======================= */
+  window.addEventListener("scroll", function () {
+    window.scrollY > window.innerHeight ? btnScrollToTop.classList.add("is-active") : btnScrollToTop.classList.remove("is-active");
+  });
+
+  btnScrollToTop.addEventListener("click", function () {
+    if (window.scrollY != 0) {
+      // Try modern smooth scroll first
+      if ('scrollBehavior' in document.documentElement.style) {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: "smooth"
+        });
+      } else {
+        // Fallback smooth scroll animation
+        const scrollToTop = () => {
+          const currentScroll = window.scrollY;
+          if (currentScroll > 0) {
+            window.requestAnimationFrame(scrollToTop);
+            window.scrollTo(0, currentScroll - (currentScroll / 8));
+          }
+        };
+        scrollToTop();
+      }
+    }
+  });
 
 
   /* =======================
