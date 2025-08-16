@@ -16,6 +16,7 @@ This repository contains the source code for my personal UX design portfolio web
 - Favicon provided by **John Sorrentino** via [Favicon.io](https://favicon.io)
 - Software/Code icons provided by **Skill Icons** via [tandpfun/skill-icons](https://github.com/tandpfun/skill-icons)
 - Footer background photo by **Chris Murray** via [Unsplash](https://unsplash.com/photos/gray-concrete-building-near-body-of-water-PLgY0KpeL-g)
+- Testimonial avatars generated using **Boring Avatars** by [boringdesigners](https://github.com/boringdesigners/boring-avatars)
 
 ## License
 The original theme is StaticMania and licensed per their terms.  
