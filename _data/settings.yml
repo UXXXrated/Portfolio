@@ -94,10 +94,10 @@ testimonial__title: Testimonials
 testimonial__description:
 
 testimonial__items:
-  - name: "Hanna Septimus"
+  - name: "E.Jerome"
     image: "/images/client-1.jpg"
-    designation: "Product Designer"
-    link: "https://twitter.com/"
+    designation: "Lead Frontend Developer"
+    link: ""
     content: "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
   - name: "Carla Rosser"
     image: "/images/client-2.jpg"
