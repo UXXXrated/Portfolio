@@ -74,7 +74,7 @@ logo__items:
 # Newsletter
 mailchimp:
   enable: false
-  mailchimp__identifier: "frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3"
+  mailchimp__identifier: ""
   mailchimp__input__text: Your email address...
   mailchimp__button__text: Subscribe
 
