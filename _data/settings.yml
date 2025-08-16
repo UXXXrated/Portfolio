@@ -72,11 +72,11 @@ logo__items:
 
 #-------------------------------
 # Newsletter
-mailchimp:
-  enable: false
-  mailchimp__identifier: ""
-  mailchimp__input__text: Your email address...
-  mailchimp__button__text: Subscribe
+# mailchimp:
+#   enable: false
+#   mailchimp__identifier: ""
+#   mailchimp__input__text: Your email address...
+#   mailchimp__button__text: Subscribe
 
 #-------------------------------
 # Work Settings
