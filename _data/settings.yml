@@ -144,7 +144,6 @@ testimonial__items:
 # Blog Section
 # blog:
 #   enable: true
-
 # blog__settings:
 #   blog__title: Writing
 #   blog__description:
