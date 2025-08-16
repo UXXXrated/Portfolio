@@ -160,9 +160,9 @@ contact:
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus:
-  enable: false
-  disqus__identifier: anvod-studio-test
+# disqus:
+#   enable: false
+#   disqus__identifier: anvod-studio-test
 
 #-------------------------------
 # Google Analytics
