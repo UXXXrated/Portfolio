@@ -51,7 +51,7 @@ hero:
 # Logos Settings
 logos:
   enable: true
-  logos__title: I’ve worked with some great companies
+  logos__title: Delivering design solutions for industry leaders:
 
 logo__items:
   - name: Google
@@ -96,49 +96,20 @@ testimonial__description:
 testimonial__items:
   - name: "E.Jerome"
     image: "/images/client-1-avatar.svg"
-    designation: "Lead Frontend Developer"
-    link: ""
-    content: "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
-  - name: "Carla Rosser"
+    designation: "Principle Frontend Engineer"
+    content: "Remarkable ability to turn user needs into intuitive, engaging designs — a vital contributor to our flagship platform."
+  - name: "J.Davis"
     image: "/images/client-2-avatar.svg"
-    designation: "Statistician"
-    link: "https://facebook.com/"
-    content: "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
-  - name: "Maria Curtis"
+    designation: "Senior Interactive Developer"
+    content: "Reliable designer balancing multiple client demands with creativity and quality results."
+  - name: "T.Taylor"
     image: "/images/client-3-avatar.svg"
-    designation: "Team Lead"
-    link: "https://twitter.com/"
-    content: "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
-  - name: "Carter Bergson"
+    designation: "Director of Educational Operations"
+    content: "Applied effective techniques that helped others build stronger connections and outcomes."
+  - name: "R.Hopes"
     image: "/images/client-4-avatar.svg"
-    designation: "CEO, Founder"
-    link: "https://facebook.com/"
-    content: "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
-  - name: "Jordyn Franci"
-    image: "/images/client-5-avatar.svg"
-    designation: "Personal Trainer"
-    link: "https://twitter.com/"
-    content: "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
-  - name: "Mira Carder"
-    image: "/images/client-6-avatar.svg"
-    designation: "Data Scientist"
-    link: "https://facebook.com/"
-    content: "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
-  - name: "Madelyn Herwitz"
-    image: "/images/client-7-avatar.svg"
-    designation: "Frontend Engineer"
-    link: "https://twitter.com/"
-    content: "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
-  - name: "Anika Schleifer"
-    image: "/images/client-8-avatar.svg"
-    designation: "Fitness Director"
-    link: "https://facebook.com/"
-    content: "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
-  - name: "Wilson Dorwart"
-    image: "/images/client-9-avatar.svg"
-    designation: "Financial Manager"
-    link: "https://twitter.com/"
-    content: "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
+    designation: "Learning Systems Specialist"
+    content: "Excelled at using technology to access information, work with digital media, and organize complex content."
 
 #-------------------------------
 # Blog Section
