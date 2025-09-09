@@ -49,26 +49,26 @@ hero:
 
 #-------------------------------
 # Logos Settings
-logos:
-  enable: true
-  logos__title: Delivering design solutions for industry leaders
+# logos:
+#   enable: true
+#   logos__title: Delivering design solutions for industry leaders
 
-logo__items:
-  - name: Google
-    link: "https://www.google.com/"
-    image: "/images/google.svg"
-  - name: Spotify
-    link: "https://www.spotify.com/"
-    image: "/images/spotify.svg"
-  - name: Netlify
-    link: "https://www.netlify.com/"
-    image: "/images/netlify.svg"
-  - name: Apple
-    link: "https://www.apple.com/"
-    image: "/images/apple.svg"
-  - name: Adobe
-    link: "https://www.adobe.com/"
-    image: "/images/adobe.svg"
+# logo__items:
+#   - name: Google
+#     link: "https://www.google.com/"
+#     image: "/images/google.svg"
+#   - name: Spotify
+#     link: "https://www.spotify.com/"
+#     image: "/images/spotify.svg"
+#   - name: Netlify
+#     link: "https://www.netlify.com/"
+#     image: "/images/netlify.svg"
+#   - name: Apple
+#     link: "https://www.apple.com/"
+#     image: "/images/apple.svg"
+#   - name: Adobe
+#     link: "https://www.adobe.com/"
+#     image: "/images/adobe.svg"
 
 #-------------------------------
 # Newsletter
@@ -83,7 +83,7 @@ logo__items:
 work:
   enable: true
   work__title: Work
-  work__description: I shows only the best websites and portfolios built completely with passion, simplicity & creativity!
+  work__description: Showcasing thoughtfully crafted digital experiences that blend user-centered design with strategic solutions.
 
 #-------------------------------
 # Testimonials Section
