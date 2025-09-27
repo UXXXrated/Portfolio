@@ -2,7 +2,7 @@
 title: Praxis
 description: Mastery Made Measurable
 category: Software
-date: Contract
+timeline: Contract
 client: Undisclosed
 role: Senior User Experience Designer
 image: '/images/work-1.jpg'

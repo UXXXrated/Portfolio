@@ -29,8 +29,8 @@ layout: default
           <p class="page-description">{{ page.description }}</p>
           {% endif %}
           <ul class="work-meta list-reset">
-            {% if page.date %}
-            <li class="work-meta__item"><strong>Date:</strong> <span>{{ page.date | date_to_string }}</span></li>
+            {% if page.timeline %}
+            <li class="work-meta__item"><strong>Timeline:</strong> <span>{{ page.timeline }}</span></li>
             {% endif %}
             {% if page.client %}
             <li class="work-meta__item"><strong>Client:</strong> <span>{{ page.client }}</span></li>

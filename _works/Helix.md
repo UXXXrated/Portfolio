@@ -2,7 +2,7 @@
 title: Helix
 description: Depth Made Visible
 category: Software
-date: Contract
+timeline: Contract
 client: Undisclosed
 role: Senior User Experience Designer
 image: '/images/work-2.jpg'
