@@ -25,9 +25,9 @@ menu__settings:
 author:
   author__name: Brenden
   author__bio: Designing digital experiences from the City of Brotherly Love.
-  author__avatar: '/images/01.jpg'
+  #author__avatar: '/images/01.jpg'
 
-social:
+#social:
   - icon: ion-logo-twitter
     link: https://twitter.com
   - icon: ion-logo-facebook
@@ -69,14 +69,6 @@ hero:
 #   - name: Adobe
 #     link: "https://www.adobe.com/"
 #     image: "/images/adobe.svg"
-
-#-------------------------------
-# Newsletter
-# mailchimp:
-#   enable: false
-#   mailchimp__identifier: ""
-#   mailchimp__input__text: Your email address...
-#   mailchimp__button__text: Subscribe
 
 #-------------------------------
 # Work Settings
@@ -128,12 +120,6 @@ footer__background__image: "/images/footer-bg.jpg"
 contact:
   email: bamoore@proton.me
   description: Ready to discuss your next project? Drop me a message and I'll get back to you within 24 hours. Let's create something amazing together.
-
-#-------------------------------
-# Comment Section (Disqus)
-# disqus:
-#   enable: false
-#   disqus__identifier: anvod-studio-test
 
 #-------------------------------
 # Google Analytics
