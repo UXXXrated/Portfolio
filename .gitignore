@@ -26,6 +26,5 @@ vendor/
 .idea/
 
 # Plans and temporary files
-plan.md
 *.tmp
 .DS_Store
