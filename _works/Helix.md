@@ -1,7 +1,7 @@
 ---
 title: Helix
 description: Depth Made Visible
-category: Book Cover
+category: Software
 date: Contract
 client: Undisclosed
 role: Senior User Experience Designer
