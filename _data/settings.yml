@@ -27,18 +27,6 @@ author:
   author__bio: Designing digital experiences from the City of Brotherly Love.
   #author__avatar: '/images/01.jpg'
 
-#social:
-  - icon: ion-logo-twitter
-    link: https://twitter.com
-  - icon: ion-logo-facebook
-    link: https://facebook.com
-  - icon: ion-logo-instagram
-    link: https://instagram.com
-  - icon: ion-logo-github
-    link: https://github.com
-  - icon: ion-logo-vimeo
-    link: https://vimeo.com
-
 #-------------------------------
 # Hero Settings
 hero:
