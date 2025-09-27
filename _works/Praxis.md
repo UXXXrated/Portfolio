@@ -2,14 +2,14 @@
 title: Praxis
 description: Mastery Made Measurable
 category: Software
-duration: Contract
+date: Contract
 client: Undisclosed
 role: Senior User Experience Designer
 image: '/images/work-1.jpg'
 image_caption: 'Photo by [Freepik](https://www.freepik.com/)'
 ---
 
-Discover  
+## Discover  
 At Undisclosed, I was the lead UX designer on a next-generation training platform designed to prepare security personnel for high-stakes environments. Through contextual inquiry, stakeholder interviews, and heuristic analysis of prior systems, my team identified critical gaps: excessive training time, fragmented navigation, and poor feedback loops. We collaborated with human factors scientists to model the cognitive stressors of real inspection tasks, ensuring the training environment reflected the pressures and pacing of real-world operations.  
 <!-- Insert image: contextual research notes or ethnographic observation -->
 
