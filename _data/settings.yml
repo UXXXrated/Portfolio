@@ -37,26 +37,23 @@ hero:
 
 #-------------------------------
 # Logos Settings
-# logos:
-#   enable: true
-#   logos__title: Delivering design solutions for industry leaders
+logos:
+  enable: true
+  logos__title: Delivering design solutions for industry leaders
 
-# logo__items:
-#   - name: Google
-#     link: "https://www.google.com/"
-#     image: "/images/google.svg"
-#   - name: Spotify
-#     link: "https://www.spotify.com/"
-#     image: "/images/spotify.svg"
-#   - name: Netlify
-#     link: "https://www.netlify.com/"
-#     image: "/images/netlify.svg"
-#   - name: Apple
-#     link: "https://www.apple.com/"
-#     image: "/images/apple.svg"
-#   - name: Adobe
-#     link: "https://www.adobe.com/"
-#     image: "/images/adobe.svg"
+logo__items:
+  - name: Battelle
+    link: "https://www.battelle.org/"
+    image: "/images/battelle.svg"
+  - name: IDT
+    link: "https://www.idtus.com/"
+    image: "/images/idt.svg"
+  - name: BTC
+    link: "https://btcmarketing.com/"
+    image: "/images/btc.svg"
+  - name: ARTBA
+    link: "https://www.artba.org/"
+    image: "/images/artba.svg"
 
 #-------------------------------
 # Work Settings
