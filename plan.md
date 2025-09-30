@@ -39,7 +39,7 @@
 
 ## Content Strategy
 - Focus on portfolio work
-- Minimal distractions (blog, comments disabled)
+- Minimal Distractions (blog, comments disabled)
 - Clear calls to action
 - Professional case study format
 
@@ -50,3 +50,17 @@
 - Never remove code unless explicitly requested
 - Prefer small, incremental changes over large rewrites
 - Test changes thoroughly before committing
+
+## Code Tools
+- Use `propose_code` tool to suggest code changes
+- Always preview changes before applying
+
+## Commit Message Style
+- Keep it concise and factual
+- No explanations or context unless necessary
+- Format for color changes:
+  ```
+  Updated colors:
+  Light: #oldcolor → #newcolor
+  Dark: #oldcolor → #newcolor
+  ```
