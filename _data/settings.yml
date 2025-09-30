@@ -54,6 +54,9 @@ logo__items:
   - name: ARTBA
     link: "https://www.artba.org/"
     image: "/images/artba.svg"
+  - name: Corzo Center
+    link: "https://www.x.com/corzocenter"
+    image: "/images/corzo.svg"
 
 #-------------------------------
 # Work Settings
