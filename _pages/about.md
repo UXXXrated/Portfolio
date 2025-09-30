@@ -9,4 +9,4 @@ Some people collect hobbies, others weird obsessions, I seem to find myself coll
 
 When I’m not working, I’m usually hashing out 3D prints, prompting otherworldly generative art, vibe-coding side projects, casual gaming, or trying to keep an indoor garden alive at my condo.
 
-(https://skillicons.dev/icons?i=apple,css,figma,github,html,js,md,notion,sass,tailwind,vscode)
+<img src="https://skillicons.dev/icons?i=apple,css,figma,github,html,js,md,notion,sass,tailwind,vscode" />
