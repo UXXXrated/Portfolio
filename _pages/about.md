@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-description: > Good design starts with data. Great design starts with people.
+description: Good design starts with data. Great design starts with people.
 permalink: /about/
 ---
 
