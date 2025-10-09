@@ -13,7 +13,7 @@ image_caption: 'Photo by [Freepik](https://www.freepik.com/)'
 At Undisclosed, I was the lead UX designer on a next-generation training platform designed to prepare security personnel for high-stakes environments. Through contextual inquiry, stakeholder interviews, and heuristic analysis of prior systems, my team identified critical gaps: excessive training time, fragmented navigation, and poor feedback loops. We collaborated with human factors scientists to model the cognitive stressors of real inspection tasks, ensuring the training environment reflected the pressures and pacing of real-world operations.
 
 <img src="/images/praxis-planner-mockup.png" loading="lazy" alt="Praxis Planner">
-<div class="page-image-caption">A centralized training dashboard showcasing prioritized learning modules, progress tracking, and session context for operational readiness.</div>
+<div style="font-size: 14px; margin-top: 8px; margin-bottom: 24px; padding: 8px 16px; line-height: 1.4; text-align: center; border: 1px solid currentColor; border-radius: 16px;">A centralized training dashboard showcasing prioritized learning modules, progress tracking, and session context for operational readiness.</div>
 
 ## Define  
 Synthesizing findings through affinity mapping and journey analysis, we reframed the design problem from “delivering training modules” to “building adaptive expertise.” Personas and task models highlighted the need for progressive skill development, adaptive difficulty, and seamless administrative oversight. The insights also underscored the importance of balancing advanced 3D simulations with interface simplicity to minimize extraneous cognitive load.
