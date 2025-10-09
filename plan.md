@@ -64,3 +64,12 @@
   Light: #oldcolor → #newcolor
   Dark: #oldcolor → #newcolor
   ```
+
+## Image Caption Template
+
+To add a styled caption under an image in markdown files:
+
+```markdown
+<img src="/images/your-image.png" loading="lazy" alt="Alt text">
+<div style="font-size: 14px; margin-top: 8px; margin-bottom: 24px; padding: 8px 16px; line-height: 1.4; text-align: center; border: 1px solid currentColor; border-radius: 16px;">Your caption text here.</div>
+```
