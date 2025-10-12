@@ -1,6 +1,6 @@
 ---
 title: Nova
-description: Comprehensive enterprise ecosystem to standardize UX across multiple mission-critical platforms.
+description: Enterprise ecosystem across multiple mission-critical platforms.
 category: Software
 timeline: Contract
 client: Undisclosed

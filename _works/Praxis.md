@@ -1,6 +1,6 @@
 ---
 title: Praxis
-description: Agentic training platform preparing security personnel for inspection environments through adaptive simulations.
+description: Agentic training platform for secure environments through adaptive simulations.
 category: Software
 timeline: Contract
 client: Undisclosed
