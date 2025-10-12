@@ -15,7 +15,7 @@
     </div>
 
     <div class="row">
-      {% assign featured_slugs = 'Praxis,Helix,case-study-3' | split: ',' %}
+      {% assign featured_slugs = 'Praxis,Helix,Nova' | split: ',' %}
       {% for slug in featured_slugs %}
         {% assign work = site.works | where: 'slug', slug | first %}
         {% if work %}

@@ -1,6 +1,6 @@
 ---
 title: Praxis
-description: Mastery Made Measurable
+description: Agentic training platform preparing security personnel for inspection environments through adaptive simulations.
 category: Software
 timeline: Contract
 client: Undisclosed

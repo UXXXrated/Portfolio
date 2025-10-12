@@ -1,6 +1,6 @@
 ---
 title: Helix
-description: Depth Made Visible
+description: Diagnostic platform with isometric visualization for airport scanner maintenance.
 category: Software
 timeline: Contract
 client: Undisclosed
