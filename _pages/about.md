@@ -10,6 +10,6 @@ Some people collect hobbies, others weird obsessions, I seem to find myself coll
 When I’m not working, I’m usually hashing out 3D prints, prompting otherworldly generative art, vibe-coding side projects, casual gaming, or trying to keep my indoor garden alive and thriving.
 
 <div style="font-size: 14px; margin-top: 8px; margin-bottom: 24px; padding: 8px 16px; line-height: 1.4; text-align: center; border: 1px solid currentColor; border-radius: 16px;">
-*Tools of the trade:*
+Tools of the trade
 <img src="https://skillicons.dev/icons?i=apple,ae,bootstrap,css,figma,github,html,js,md,notion,sass,tailwind,vscode" />
 </div>

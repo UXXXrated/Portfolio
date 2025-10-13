@@ -17,16 +17,15 @@ At Undisclosed, I was the lead UX designer on a next-generation training platfor
 
 ## Define
 Synthesizing findings through affinity mapping and journey analysis, we reframed the design problem from “delivering training modules” to “building adaptive expertise.” Personas and task models highlighted the need for progressive skill development, adaptive difficulty, and seamless administrative oversight. The insights also underscored the importance of balancing advanced 3D simulations with interface simplicity to minimize extraneous cognitive load.
-<!-- Insert image: persona or journey map -->
 
 ## Develop
 I facilitated co-creation workshops with cross-functional teams, guiding ideation around modular training, real-time analytics, and AI-driven personalization. Low-fidelity prototypes validated mental models early, while high-fidelity wireframes emphasized consistency through a reusable design system. We integrated accessibility standards (WCAG 2.2) and human factors heuristics such as recognition over recall. My leadership ensured alignment across engineering, AI modeling experts, and compliance stakeholders, accelerating consensus in a highly regulated environment.
-<!-- Insert image: wireframes or component library -->
+
+<div style="font-size: 14px; margin-top: 8px; margin-bottom: 24px; padding: 8px 16px; line-height: 1.4; text-align: center; border: 1px solid currentColor; border-radius: 16px;">A contextual learning dashboard integrating skill-based modules, progress tracking, and readiness insights to strengthen operator proficiency and compliance.</div>
+<img src="/images/praxis-learning-mockup.png" loading="lazy" alt="Praxis Learning">
 
 ## Deliver
 Usability testing employed a mixed-methods approach: SUS surveys, eye-tracking heat maps, and A/B testing of navigation flows. Results showed a 34% reduction in task errors, a 28% decrease in average training session time, and an SUS score jump from 62 to 84. Administrators rated the dashboard’s analytics as highly actionable, with 81% noting faster identification of underperforming trainees. Iterative refinements focused on surfacing feedback at critical decision points, reducing ambiguity, and strengthening user trust in AI-generated modules.
-<!-- Insert image: usability testing session or analytics dashboard -->
 
 ## Impact
 The platform accelerated onboarding while reducing long-term training costs. Engagement metrics confirmed increased retention, with 87% of users reporting they would prefer to reuse the system over legacy methods. Beyond a single application, the project established a design system leveraged across other secure training tools, creating scalable efficiencies for future development. By aligning with the Double Diamond process, I ensured that strategic goals, user needs, and technical realities converged in a solution both measurable and enduring.
-<!-- Insert image: final UI mockup or 3D inspection environment -->
