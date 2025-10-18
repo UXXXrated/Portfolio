@@ -35,3 +35,6 @@ Usability testing employed a mixed-methods approach: SUS surveys, eye-tracking h
 
 ## Impact
 The platform accelerated onboarding while reducing long-term training costs. Engagement metrics confirmed increased retention, with 87% of users reporting they would prefer to reuse the system over legacy methods. Beyond a single application, the project established a design system leveraged across other secure training tools, creating scalable efficiencies for future development. By aligning with the Double Diamond process, I ensured that strategic goals, user needs, and technical realities converged in a solution both measurable and enduring.
+
+<div style="font-size: 14px; margin-top: 8px; margin-bottom: 24px; padding: 8px 16px; line-height: 1.4; text-align: center; border: 1px solid currentColor; border-radius: 16px;">Centralized user preferences panel for customizing interface language, visual density, theme, and session behavior within the Praxis environment.</div>
+<img src="/images/praxis-settings-mockup.png" loading="lazy" alt="Praxis Documentation Page">
