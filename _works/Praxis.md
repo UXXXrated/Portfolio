@@ -5,8 +5,8 @@ category: Software
 timeline: Contract
 client: Undisclosed
 role: Senior User Experience Designer
-image: '/images/work-1.jpg'
-image_caption: 'Photo by [Freepik](https://www.freepik.com/)'
+image: '/images/praxis-cover.png'
+image_caption: 'Praxis Learning Page'
 ---
 
 ## Discover
@@ -24,7 +24,7 @@ Synthesizing findings through affinity mapping and journey analysis, we reframed
 ## Develop
 I facilitated co-creation workshops with cross-functional teams, guiding ideation around modular training, real-time analytics, and AI-driven personalization. Low-fidelity prototypes validated mental models early, while high-fidelity wireframes emphasized consistency through a reusable design system. We integrated accessibility standards (WCAG 2.2) and human factors heuristics such as recognition over recall. My leadership ensured alignment across engineering, AI modeling experts, and compliance stakeholders, accelerating consensus in a highly regulated environment.
 
-<div style="font-size: 14px; margin-top: 8px; margin-bottom: 24px; padding: 8px 16px; line-height: 1.4; text-align: center; border: 1px solid currentColor; border-radius: 16px;">Contextual learning dashboard integrating skill-based modules, progress tracking, and readiness insights to strengthen operator proficiency and compliance.</div>
+<div style="font-size: 14px; margin-top: 8px; margin-bottom: 24px; padding: 8px 16px; line-height: 1.4; text-alighttps://www.bamoore.com/work/praxisn: center; border: 1px solid currentColor; border-radius: 16px;">Contextual learning dashboard integrating skill-based modules, progress tracking, and readiness insights to strengthen operator proficiency and compliance.</div>
 <img src="/images/praxis-learning-mockup.png" loading="lazy" alt="Praxis Learning Page">
 
 ## Deliver
@@ -37,4 +37,4 @@ Usability testing employed a mixed-methods approach: SUS surveys, eye-tracking h
 The platform accelerated onboarding while reducing long-term training costs. Engagement metrics confirmed increased retention, with 87% of users reporting they would prefer to reuse the system over legacy methods. Beyond a single application, the project established a design system leveraged across other secure training tools, creating scalable efficiencies for future development. By aligning with the Double Diamond process, I ensured that strategic goals, user needs, and technical realities converged in a solution both measurable and enduring.
 
 <div style="font-size: 14px; margin-top: 8px; margin-bottom: 24px; padding: 8px 16px; line-height: 1.4; text-align: center; border: 1px solid currentColor; border-radius: 16px;">Centralized user preferences panel for customizing interface language, visual density, theme, and session behavior within the Praxis environment.</div>
-<img src="/images/praxis-settings-mockup.png" loading="lazy" alt="Praxis Documentation Page">
+<img src="/images/praxis-settings-mockup.png" loading="lazy" alt="Praxis Settings Page">
