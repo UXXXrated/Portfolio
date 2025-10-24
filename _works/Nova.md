@@ -5,8 +5,8 @@ category: Software
 timeline: Contract
 client: Undisclosed
 role: Lead User Experience Designer
-image: '/images/work-1.jpg'
-image_caption: 'Photo by [Freepik](https://www.freepik.com/)'
+image: '/images/nova-cover.png'
+image_caption: 'Nova WIP Cover'
 ---
 
 ## Discover
