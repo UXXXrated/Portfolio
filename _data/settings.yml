@@ -106,7 +106,6 @@ footer__background__image: "/images/footer-bg.jpg"
 #-------------------------------
 # Contact Settings
 contact:
-  email: bamoore@proton.me
   description: Ready to discuss your next project? Drop me a message and I'll get back to you within 24 hours. Let's create something amazing together.
 
 #-------------------------------

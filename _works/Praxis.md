@@ -1,13 +1,15 @@
 ---
 title: Praxis
 description: Agentic training platform for secure environments through adaptive simulations.
-category: Software
-timeline: Contract
+category: Training
+timeline: 6 Months
 client: Undisclosed
 role: Senior User Experience Designer
 image: '/images/praxis-cover.png'
 image_caption: 'Praxis Learning Page'
 ---
+
+> <span style="color: var(--primary-color);">**Note:**</span> Mockups shown are redesigned representations created for portfolio purposes. Original work is under NDA and remains property of the client.
 
 ## Discover
 At Undisclosed, I was the lead UX designer on a next-generation training platform designed to prepare security personnel for high-stakes environments. Through contextual inquiry, stakeholder interviews, and heuristic analysis of prior systems, my team identified critical gaps: excessive training time, fragmented navigation, and poor feedback loops. We collaborated with human factors scientists to model the cognitive stressors of real inspection tasks, ensuring the training environment reflected the pressures and pacing of real-world operations.
@@ -24,7 +26,7 @@ Synthesizing findings through affinity mapping and journey analysis, we reframed
 ## Develop
 I facilitated co-creation workshops with cross-functional teams, guiding ideation around modular training, real-time analytics, and AI-driven personalization. Low-fidelity prototypes validated mental models early, while high-fidelity wireframes emphasized consistency through a reusable design system. We integrated accessibility standards (WCAG 2.2) and human factors heuristics such as recognition over recall. My leadership ensured alignment across engineering, AI modeling experts, and compliance stakeholders, accelerating consensus in a highly regulated environment.
 
-<div style="font-size: 14px; margin-top: 8px; margin-bottom: 24px; padding: 8px 16px; line-height: 1.4; text-alighttps://www.bamoore.com/work/praxisn: center; border: 1px solid currentColor; border-radius: 16px;">Contextual learning dashboard integrating skill-based modules, progress tracking, and readiness insights to strengthen operator proficiency and compliance.</div>
+<div style="font-size: 14px; margin-top: 8px; margin-bottom: 24px; padding: 8px 16px; line-height: 1.4; text-align: center; border: 1px solid currentColor; border-radius: 16px;">Contextual learning dashboard integrating skill-based modules, progress tracking, and readiness insights to strengthen operator proficiency and compliance.</div>
 <img src="/images/praxis-learning-mockup.png" loading="lazy" alt="Praxis Learning Page">
 
 ## Deliver

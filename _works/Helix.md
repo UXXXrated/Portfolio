@@ -1,13 +1,15 @@
 ---
 title: Helix
 description: Diagnostic platform with isometric visualization for airport scanner maintenance.
-category: Software
-timeline: Contract
+category: Industrial
+timeline: 6 Months
 client: Undisclosed
 role: Senior User Experience Designer
 image: '/images/helix-cover.png'
 image_caption: 'Helix Level One Page'
 ---
+
+> <span style="color: var(--primary-color);">**Note:**</span> Mockups shown are redesigned representations created for portfolio purposes. Original work is under NDA and remains property of the client.
 
 ## Discover
 At Undisclosed, I led UX design on a diagnostic platform built to replace command-line interfaces with an intuitive visual system for airport scanner maintenance. Through contextual inquiry, task analysis, and structured interviews with maintenance staff, we uncovered recurring frustrations: excessive cognitive load, reliance on institutional knowledge, and inefficiencies in isolating faults. Field observations showed engineers losing time navigating layered command outputs rather than focusing on actual repairs.
