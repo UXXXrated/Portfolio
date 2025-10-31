@@ -9,6 +9,8 @@ image: '/images/nova-cover.png'
 image_caption: 'Nova WIP Cover'
 ---
 
+<div style="font-size: 14px; margin-top: 8px; margin-bottom: 24px; padding: 8px 16px; line-height: 1.4; text-align: center; border: 1px solid currentColor; border-radius: 16px;">Updated mockings WIP.</div>
+
 ## Discover
 Before Nova, design across the organization was fragmented. Each application followed its own conventions, creating duplicated components, inconsistent workflows, and uneven accessibility. A design audit showed how much effort was being wasted solving the same problems in different ways. Usability testing confirmed task completion times were about twenty percent slower when users moved between systems. These findings became the foundation for Nova’s creation and guided its focus on standardization, efficiency, and clarity.
 
