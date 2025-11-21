@@ -15,8 +15,9 @@ menu__settings:
       url: '/work/'
     - title: 'About'
       url: '/about/'
-    # - title: 'Writing'
-    #   url: '/blog/'
+    - title: 'Writing'
+      url: 'https://medium.com/@UXXXrated'
+      external: true
     - title: 'Contact'
       url: '/contact/'
 
